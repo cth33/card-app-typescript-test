@@ -15,7 +15,7 @@ const SettingsDialog: React.FC<SettingsDialogProps> = ({ isOpen, onClose }) => {
             <div className="bg-white dark:bg-gray-800 text-black dark:text-white p-4 rounded-lg shadow-xl max-w-sm w-full relative">
                 <h2 className="text-2xl font-bold mb-4">Settings</h2>
                 <p className="text-gray-600 dark:text-gray-300 mb-6">
-                    Customize your experience with these settings. Changes will be applied immediately.
+                    You can toggle between light and dark mode using the following button. Changes will be applied immediately.
                 </p>
                 
                 <div className="space-y-4">
