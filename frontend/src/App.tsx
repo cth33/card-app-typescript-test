@@ -20,9 +20,9 @@ function AppContent() {
         <EntryProvider>
           <NavBar />
           <Routes>
-            <Route path="/" element={<AllEntries/>} />
-            <Route path="create" element={<NewEntry/>} />
-            <Route path="edit/:id" element={<EditEntry/>} />
+            <Route path="/" element={<AllEntries/>}></Route>
+            <Route path="create" element={<NewEntry/>}></Route>
+            <Route path="edit/:id" element={<EditEntry/>}></Route>
           </Routes>
         </EntryProvider>
       </Router>
